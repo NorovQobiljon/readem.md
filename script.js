@@ -169,6 +169,105 @@ function lessThan100(a, b) {
 
 //
 
+// [21. How Ebdait Works](https://edabit.com/challenge/4iCsexZgmDEMMxj46);
+//
+
+function printArray(number) {
+    var newArray = [];
+  
+    for(var i = 1; i <= number; i++) {
+      newArray.push(i);
+    }
+  
+    return newArray;
+  }
+
+//
+
+// [22. How Ebdait Works](https://edabit.com/challenge/CCGBig9eRPFzAHv46);
+//
+
+function swap(a, b) {
+	[a,b]=[b,a]
+	return [a, b]
+}
+
+//
+
+// [23. How Ebdait Works](https://edabit.com/challenge/8Qg78sf5SNDEANKti);
+//
+
+function animals(chickens, cows, pigs) {
+	return (chickens * 2 + cows * 4 + pigs * 4)
+}
+
+//
+
+// [24. How Ebdait Works](https://edabit.com/challenge/vJCZmgvvDjehyDcDK);
+//
+
+function and(a, b) {
+	return (a == b)
+}
+
+//
+
+// [25. How Ebdait Works](https://edabit.com/challenge/QSnaSH5S3oxZkwcNc);
+//
+
+function isSameNum(num1, num2) {
+    return num1 == num2
+    }
+
+//
+
+// [26. How Ebdait Works](https://edabit.com/challenge/GwvwXHWCThHZrR7xu);
+//
+
+function footballPoints(wins, draws, losses) {
+	return (wins * 3 + draws * 1 + losses * 0)
+}
+
+//
+
+// [27. How Ebdait Works](https://edabit.com/challenge/JesaFi5ntBEbGT8bu);
+//
+
+function convert(hours, minutes) {
+	return (hours * 3600 + minutes * 60)
+}
+
+//
+
+// [28. How Ebdait Works](https://edabit.com/challenge/FipbQSYquQLPZ8QXG);
+//
+
+function isSeven(x) {
+	return x == 7
+}
+
+//
+
+// [29. How Ebdait Works](https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3);
+//
+
+function checkEquality(a, b) {
+    return a === b
+    }
+
+//
+
+// [30. How Ebdait Works](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF);
+//
+
+function profitableGamble(prob, prize, pay) {
+	return ( prob && prize > pay)
+}
+
+//
+
+
+
 
 
 
