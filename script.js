@@ -110,7 +110,7 @@ function findPerimeter(length, width) {
 //
 
 function giveMeSomething(a) {
-	return "something " + a;
+    return "something " + a;
 }
 
 //
@@ -119,7 +119,7 @@ function giveMeSomething(a) {
 //
 
 function squared(b) {
-	return (b * b) 
+    return (b * b)
 }
 
 //
@@ -128,7 +128,7 @@ function squared(b) {
 //
 
 function lessThanOrEqualToZero(num) {
-	return (num <= 0)
+    return (num <= 0)
 }
 
 //
@@ -137,7 +137,7 @@ function lessThanOrEqualToZero(num) {
 //
 
 function sumPolygon(n) {
-	return (n - 2) * 180
+    return (n - 2) * 180
 }
 
 //
@@ -146,7 +146,7 @@ function sumPolygon(n) {
 //
 
 function points(twoPointers, threePointers) {
-	return twoPointers * 2 + threePointers * 3
+    return twoPointers * 2 + threePointers * 3
 }
 
 //
@@ -154,8 +154,8 @@ function points(twoPointers, threePointers) {
 // [19. How Ebdait Works](https://edabit.com/challenge/ZNwHGgHvsdnYwJ5WK);
 //
 
-function nameString(name){
-	return name + "Edabit"
+function nameString(name) {
+    return name + "Edabit"
 }
 
 //
@@ -164,7 +164,7 @@ function nameString(name){
 //
 
 function lessThan100(a, b) {
-	return (a + b < 100)
+    return (a + b < 100)
 }
 
 //
@@ -174,13 +174,13 @@ function lessThan100(a, b) {
 
 function printArray(number) {
     var newArray = [];
-  
-    for(var i = 1; i <= number; i++) {
-      newArray.push(i);
+
+    for (var i = 1; i <= number; i++) {
+        newArray.push(i);
     }
-  
+
     return newArray;
-  }
+}
 
 //
 
@@ -188,8 +188,8 @@ function printArray(number) {
 //
 
 function swap(a, b) {
-	[a,b]=[b,a]
-	return [a, b]
+    [a, b] = [b, a]
+    return [a, b]
 }
 
 //
@@ -198,7 +198,7 @@ function swap(a, b) {
 //
 
 function animals(chickens, cows, pigs) {
-	return (chickens * 2 + cows * 4 + pigs * 4)
+    return (chickens * 2 + cows * 4 + pigs * 4)
 }
 
 //
@@ -207,7 +207,7 @@ function animals(chickens, cows, pigs) {
 //
 
 function and(a, b) {
-	return (a == b)
+    return (a == b)
 }
 
 //
@@ -217,7 +217,7 @@ function and(a, b) {
 
 function isSameNum(num1, num2) {
     return num1 == num2
-    }
+}
 
 //
 
@@ -225,7 +225,7 @@ function isSameNum(num1, num2) {
 //
 
 function footballPoints(wins, draws, losses) {
-	return (wins * 3 + draws * 1 + losses * 0)
+    return (wins * 3 + draws * 1 + losses * 0)
 }
 
 //
@@ -234,7 +234,7 @@ function footballPoints(wins, draws, losses) {
 //
 
 function convert(hours, minutes) {
-	return (hours * 3600 + minutes * 60)
+    return (hours * 3600 + minutes * 60)
 }
 
 //
@@ -243,7 +243,7 @@ function convert(hours, minutes) {
 //
 
 function isSeven(x) {
-	return x == 7
+    return x == 7
 }
 
 //
@@ -253,7 +253,7 @@ function isSeven(x) {
 
 function checkEquality(a, b) {
     return a === b
-    }
+}
 
 //
 
@@ -261,15 +261,165 @@ function checkEquality(a, b) {
 //
 
 function profitableGamble(prob, prize, pay) {
-	return ( prob && prize > pay)
+    return (prob && prize > pay)
 }
 
 //
 
+// [31. How Ebdait Works](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx);
+//
 
+function boolToString(flag) {
+    return flag + "";
+}
 
+//
 
+// [32. How Ebdait Works](https://edabit.com/challenge/QkvDge63crdGnMfvM);
+//
 
+arrowFunc = (number) => {
+    return number
+}
 
+//
 
+// [33. How Ebdait Works](https://edabit.com/challenge/d9suvbchE2bnHNQuK);
+//
 
+function frames(minutes, fps) {
+    return (minutes * 60) * fps
+}
+
+//
+
+// [34. How Ebdait Works](https://edabit.com/challenge/fh9i7k936rvfjnCYR);
+//
+
+function calculator(str) {
+    return eval(str)
+}
+
+//
+
+// [35. How Ebdait Works](https://edabit.com/challenge/4SmqXvQtL6qRgzfha);
+//
+
+function greeting(name) {
+    if (name == "Mubashir") {
+        return "Hello, my Love!";
+    }
+    return "Hello, " + name + "!";
+}
+
+//
+
+// [36. How Ebdait Works](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK);
+//
+
+function makesTen(a, b) {
+    let sum = a + b
+    if (a == 10 || b == 10 || sum == 10) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//
+
+// [37. How Ebdait Works](https://edabit.com/challenge/YMWDcSuYwYvve3HZj);
+//
+
+function calculateFuel(n) {
+    if (n < 10) {
+        return 100
+    } else {
+        return n * 10
+    }
+}
+
+//
+
+// [38. How Ebdait Works](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu);
+//
+
+function maxNum(n1, n2) {
+    if (n1 < n2) {
+        return n2
+    }
+    else {
+        return n1
+    }
+}
+
+//
+
+// [39. How Ebdait Works](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt);
+//
+
+function makePair(num1, num2) {
+    return [num1, num2]
+}
+
+//
+
+// [40. How Ebdait Works](https://edabit.com/challenge/yHGowWucg3k2kJdZ4);
+//
+
+function comp(str1, str2) {
+    if (str1.length == str2.length) {
+        return true
+    } else {
+        return false
+    }
+}
+
+//
+
+// [41. How Ebdait Works](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL);
+//
+
+function isEmpty(s) {
+	if(s == ""){
+		return true
+	}else{
+		return false
+	}
+}
+
+//
+
+// [42. How Ebdait Works](https://edabit.com/challenge/iBQYbSHZGhpktLRdn);
+//
+
+function divisibleByFive(n) {
+	if(n % 5 == 0){
+		return true
+	}else{
+		return false
+	}
+}
+
+//
+
+// [43. How Ebdait Works](https://edabit.com/challenge/qMr6wYGr6NaXAPQGF);
+//
+
+function divisible(num) {
+	if(num % 100 == 0){
+		return true
+	}else{
+	return	false
+	}
+}
+
+//
+
+// [44. How Ebdait Works]();
+// [45. How Ebdait Works]();
+// [46. How Ebdait Works]();
+// [47. How Ebdait Works]();
+// [48. How Ebdait Works]();
+// [49. How Ebdait Works]();
+// [50. How Ebdait Works]();
